@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//  Q1:     
+    let num = 5;
+    let num1 = 3;   
+
+    let num2 = num + num1;
+   
+    console.log("The sum of " + num + " and " + num1 + " is " + num2);
+
+
+//   Q2:  
+
+     let num3 = num - num1;
+   
+    console.log("The subtraction of " + num + " and " + num1 + " is " + num3);
+
+
+    let num4 = num * num1;
+   
+   console.log("The multiplication of " + num + " and " + num1 + " is " + num4);
+
+   let num5 = num  / num1;
+   
+   console.log("The division of " + num + " and " + num1 + " is " + num5);
+
+//    Q3;
+        // a. 
+        let num6 = num + num1;
+
+        // b.
+        var variableName = 10; 
+        console.log("Value after variable declaration is: " + variableName);
+
+    //   c.
+        let variable = 5;
+    //   d.
+        console.log("Initial value: " + variable);
+    //   e.
+        variable++;
+    //   f.
+        console.log("Value after increment is: " + variable);
+    //   g.  
+        variable += 7;
+    //   h.
+        console.log("Value after addition: " + variable);
+     //   i.
+         variable--;
+    //   j.
+        console.log("Value after decrement is: " + variable);
+    //   k.
+        variable = variable % 3;
+    //   l.
+        console.log("The remainder is: " + variable);    
+
+    //    Q4;
+    let ticket = 600;
+    document.write("Total cost to buy 5 tickets to a movie is " + ticket * 5 + "PKR" + "<br>");
+    //    Q5;
+        let para = 6;
+       for(let n = 1; n <= 20; n++){
+        document.write(para + "x" + n + "=" + para * n + "<br>" )
+       }
+    // Q6;
+    //    a.
+        let celsiusTemp = 25;
+       
+        let fahrenheitTemp = celsiusTemp * 9/5 + 32;
+        console.log(celsiusTemp + "°C is " + fahrenheitTemp + "°F");
+    //    b.
+        let fahrenheitTemp2 = 70;
+
+        let celsiusTemp2 = (fahrenheitTemp2 - 32) * 5/9;
+        console.log(fahrenheitTemp2 + "°F is " + celsiusTemp2 + "°C");
+    // Q:7
+        let priceOfItem1 = 650;
+        let priceOfItem2 = 100;
+        let orderedQuantityOfItem1 = 3;
+        let orderedQuantityOfItem2 = 7;
+        let shippingCharges = 100;
+        
+        let totalCost = (priceOfItem1 * orderedQuantityOfItem1) + (priceOfItem2 * orderedQuantityOfItem2) + shippingCharges;
+        
+        console.log("Receipt:");
+        console.log("Price of item 1: " + priceOfItem1);
+        console.log("Price of item 2: " + priceOfItem2);
+        console.log("Ordered quantity of item 1: " + orderedQuantityOfItem1);
+        console.log("Ordered quantity of item 2: " + orderedQuantityOfItem2);
+        console.log("Shipping charges: " + shippingCharges);
+        console.log("Total cost: " + totalCost);
+      
+    // Q8
+        let totalMarks = 980;
+        let marksObtained = 804;
+        let percentage = (marksObtained / totalMarks) * 100;
+        
+        console.log("Total marks: " + totalMarks);
+        console.log("Marks obtained: " + marksObtained);
+        console.log("Percentage: " + percentage + "%");
+
+    // Q9
+        let dollars = 10;
+        let riyal = 25;
+        let totalRupee = (dollars * 104.80) + (riyal * 28);
+        
+        console.log("Total currency in PKR: " + totalRupee);    
+
+    // Q10
+       let number = 20;
+       
+       console.log(((number + 5) * 10 )/ 2);
+       
+    // Q11
+        let currentYear = 2024;
+        let birthYear = 2004;
+        let age = currentYear - birthYear;
+
+        console.log("They are either " + age + " years or " + (age - 1) + " years old");
+    
+    // Q12
+        let radius = 20;
+        let circumference = 2 * 3.142 * radius;
+        
+        console.log("The circumference is " + circumference);
+
+        let area = 3.142 * radius * radius;
+
+        console.log("The area is " + area);
+
+    // Q13
+
+        let favouriteSnack = "meggies";
+        let currentAge = 20;
+        let maximumAge = 80;
+        let amountPerDay = 4;
+
+        let totalSnacks = (maximumAge - currentAge) * 365 * amountPerDay;
+        console.log("You need " + totalSnacks + " " + favouriteSnack + " until the age of " + maximumAge);
+
+        
+
+    </script>
+</body>
+</html>

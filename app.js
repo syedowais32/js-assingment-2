@@ -6,4 +6,4 @@
 // alert(num) 
 // .... ended
 
-//  chapter4
+// all chapters are done in external files of html with script tag 
